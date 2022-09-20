@@ -58,7 +58,7 @@ function ImageForm() {
             }
         }
         ManageItems({
-            endpoint: 'images/',
+            endpoint: 'images',
             method: 'POST',
             authTokens: authTokens,
             logoutUser: logoutUser,
