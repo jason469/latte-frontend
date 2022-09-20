@@ -27,7 +27,7 @@ function ImageCard({data, images, setDeletedItem = null}) {
 
     const deleteImage = () => {
         ManageItems({
-            endpoint: `/images/${data.pk}`,
+            endpoint: `images/${data.pk}`,
             method: "DELETE",
             authTokens: authTokens,
             logoutUser: logoutUser,

@@ -17,7 +17,7 @@ function AlbumDetailPage(props) {
 
     useEffect(() => {
         ManageItems({
-            endpoint: `/albums/${albumId}`,
+            endpoint: `albums/${albumId}`,
             method: "GET",
             setFunction: setCurrentAlbum,
             authTokens: authTokens,

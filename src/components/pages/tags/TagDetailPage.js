@@ -17,7 +17,7 @@ function TagDetailPage(props) {
 
     useEffect(() => {
         ManageItems({
-            endpoint: `/tags/${tagId}`,
+            endpoint: `tags/${tagId}`,
             method: "GET",
             setFunction: setCurrentTag,
             authTokens: authTokens,
