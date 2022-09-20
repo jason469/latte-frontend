@@ -52,7 +52,7 @@ export const AuthProvider = props => {
 
     let updateToken = async () => {
         if (authTokens !== null) {
-            let response = await fetch(`https://latte-backend.onrender.com/auth/token/refresh/`, {
+            let response = await fetch(`https://latte-backend.onrender.com/api/auth/token/refresh/`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
