@@ -41,7 +41,7 @@ function Jumbrotron() {
                         >
                             {images.map(data =>
                                 <img
-                                    src={`http://localhost:9000/media/${data.fields.image}`}
+                                    src={`https://latte-backend.onrender.com/media/${data.fields.image}`}
                                     alt={"Image not found"}
                                     className={classes.jumbotron_image}
                                 />

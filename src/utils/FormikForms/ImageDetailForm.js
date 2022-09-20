@@ -107,7 +107,7 @@ function ImageDetailForm({title, name, description, image, method, endpoint}) {
                                     />
                                 </div>
                                 <img
-                                    src={`http://localhost:9000/media/${image}`}
+                                    src={`https://latte-backend.onrender.com/media/${image}`}
                                     alt={"Image not found"}
                                     className="click image-preview"
                                     loading="lazy"

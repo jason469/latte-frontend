@@ -40,7 +40,7 @@ function ImageCard({data, images, setDeletedItem = null}) {
             <ImageListItem className={classes.imageCard}>
                 <CardActionArea>
                     <img
-                        src={`http://localhost:9000/media/${data.fields.image}`}
+                        src={`https://latte-backend.onrender.com/media/${data.fields.image}`}
                         alt={"Image not found"}
                         className={`click ${classes.card_image}`}
                         loading="lazy"
