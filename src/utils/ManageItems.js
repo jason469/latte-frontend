@@ -7,7 +7,7 @@ export const ManageItems = async ({
                                       body = null,
                                       content_type = "application/json"
                                   }) => {
-    let url = `https://latte-backend.onrender.com/${endpoint}/`;
+    let url = `https://latte-backend.onrender.com/api/${endpoint}/`;
     if (content_type != null) {
         var response = await fetch(url, {
             method: `${method}`,

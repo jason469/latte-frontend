@@ -22,7 +22,7 @@ export const AuthProvider = props => {
 
     let loginUser = async (e) => {
         e.preventDefault()
-        let response = await fetch(`https://latte-backend.onrender.com/auth/token/`, {
+        let response = await fetch(`https://latte-backend.onrender.com/api/auth/token/`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
