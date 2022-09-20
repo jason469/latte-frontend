@@ -52,7 +52,7 @@ function ImageDetailPage(props) {
                     description={currentImage[0].fields.description}
                     image={currentImage[0].fields.image}
                     method='PATCH'
-                    endpoint={`/images/${currentImage[0].pk}/`}
+                    endpoint={`/images/${currentImage[0].pk}`}
                 />
             </div>
             <Divider variant="middle"/>

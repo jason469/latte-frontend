@@ -16,7 +16,7 @@ function Jumbrotron() {
 
     useEffect(() => {
         ManageItems({
-            endpoint: '/get-random-images/',
+            endpoint: '/get-random-images',
             method: "GET",
             setFunction: setImages,
             authTokens: authTokens,
