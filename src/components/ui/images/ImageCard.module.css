@@ -1,0 +1,26 @@
+.imageCard {
+    max-width: 15rem;
+    transition: 0.5s ease !important;
+    padding: 10px !important;
+}
+
+.imageCard:hover {
+    transform: scale(1.1);
+}
+
+
+.card_image {
+    max-width: 15rem;
+    width: 100% !important;
+    height: auto;
+}
+
+.card_image:hover {
+    box-shadow: 3px 3px 6px 3px #5F6368;
+}
+
+
+.image_card_bar:hover {
+    background-color: #fafafa;
+    box-shadow: 1px 1px 7px 1px #efeff1;
+}
