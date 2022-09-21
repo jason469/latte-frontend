@@ -27,4 +27,4 @@ More work also needs to be done to allow for additional image formats (e.g HEIC 
 
 # Where can I see Latte?
 To visit Latte, please visit the following link: <br>
-> https://latte-frontend.onrender.com/
+> [Latte](https://latte-frontend.onrender.com/)
