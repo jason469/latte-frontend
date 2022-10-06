@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  react:
+    container_name: app
+    build:
+      context: ./app
+    ports:
+      - 3000:3000
+    volumes:
+      - ./app/src:/app/src
